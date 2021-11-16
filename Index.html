@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8"/>
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <title>Iron API - Usuário</title>
+</head>
+
+<body>
+  <div class="container">
+      <div id="box">
+        <div class="avatar">
+            <img id="imagem" src="https://ironhotel.biz/avatar/Dominguez/action=crr=&size=l&head_direction=2&direction=2&gesture=sml&dance=0&img_format=png&effect=&frame_num=0">
+            <img id="palco" src="assets/images/palco.webp">
+        </div> <!-- avatar -->
+        <div class="input">
+            <h6>Gerador de Handitem</h6>
+            <input id="nick" type="text" onkeyup="busca()" maxlength="20" autocomplete="off" placeholder="Digite seu nick">
+
+            <select name="cars" id="cars" onclick="busca()"></select>
+        </div> <!-- input -->
+      </div> <!-- box -->
+  </div> <!-- container -->
+
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/handitem.js"></script>
+</body>
+
+</html>
